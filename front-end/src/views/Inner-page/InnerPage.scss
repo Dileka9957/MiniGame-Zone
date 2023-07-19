@@ -1,0 +1,39 @@
+.game-view {
+    background-color: #e4dfff;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: -50px;
+    margin-top: -20px;
+}
+.leader-board {
+    background-color: #e4dfff;
+    border-radius: 10px;
+    margin-top: -20px;
+    position: static;
+}
+.screen {
+    max-width: 1300px;
+}
+.fullscreen-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #8626ff;
+}
+.carousel-dots {
+    .rec.rec-dot {
+        display: none;
+    }
+}
+.screen-skeleton {
+    border-radius: 10px;
+}
+.banner-image {
+    margin-top: -20px;
+
+}

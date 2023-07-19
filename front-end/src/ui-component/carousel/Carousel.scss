@@ -1,0 +1,44 @@
+
+
+.rec-arrow {
+    
+    background-color: rgb(105, 26, 196)!important;
+    transition: all 0.1s ease;
+    font-size: 0.9rem !important;
+    color: white !important;
+    width: 1.3rem !important;
+    height: 1.25rem !important;
+    min-width: 1.3rem !important;
+    line-height: 1.2rem !important;
+   
+}
+
+.rec-arrow:hover:not(:disabled) {
+    transform: scale(1.2);
+}
+
+.rec-arrow-left{
+    position: relative;
+    left: -25px;
+    top:-10px;
+}
+
+.rec-arrow-right{
+    position: relative;
+    right: -20px;
+    top:-10px;
+}
+
+.rec.rec-dot {
+    display: none;
+}
+
+.rec-item-wrapper{
+ padding: 0px !important;
+ width: 100% !important; 
+}
+
+.rec{
+ padding: 0px!important;
+}
+

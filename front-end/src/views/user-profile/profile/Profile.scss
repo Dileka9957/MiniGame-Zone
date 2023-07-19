@@ -1,0 +1,16 @@
+.profile-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.profile-box p{
+    margin-left: 10px;
+}
+
+.profile-box-left{
+    display: flex;
+    align-items: center;
+}
+.profile-box-right{
+    margin-right: 10px;
+}

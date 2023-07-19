@@ -1,0 +1,15 @@
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+    padding: 10px;
+    background-color: antiquewhite;
+
+    .carousel-container {
+        display: flex;
+        background-color: rgb(178, 218, 255);
+    }
+}
+.rec.rec-dot {
+    display: none;
+}
+

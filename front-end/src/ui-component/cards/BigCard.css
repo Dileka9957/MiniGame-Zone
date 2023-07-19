@@ -1,0 +1,56 @@
+.card {
+    position: relative;
+    border-radius: 10px;
+    width: 280px;
+    height: 205px;
+}
+.card p {
+    position: absolute;
+    top: -5px;
+    left: -15px;
+    width: 140px;
+    height: 35px;
+    background-color: #fc8233;
+    border-radius: 30px;
+    border-bottom-left-radius: 0%;
+}
+.card p::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 15px;
+    height: 30px;
+    background-color: #cf5404;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    text-align: center;
+}
+.card p::after {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 10px;
+    height: 15px;
+    background-color: #fc8233;
+    z-index: 1;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* span {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+} */

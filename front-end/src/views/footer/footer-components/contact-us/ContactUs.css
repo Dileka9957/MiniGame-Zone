@@ -1,0 +1,23 @@
+.emailfail .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+
+    border-color: red;
+      
+}
+
+.emailpass .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+
+    border-color: rgb(11, 239, 11);
+      
+}
+
+.emailfail .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+
+    border-color: red;
+      
+}
+
+.emailpass .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+
+    border-color: rgb(11, 239, 11);
+      
+}

@@ -1,0 +1,15 @@
+.switch {
+    & .MuiSwitch-thumb {
+        width: 20px;
+        height: 20px;
+    }
+    & .MuiSwitch-track {
+        border-radius: 30px;
+        height: 26px;
+        width: 48px;
+        position: absolute;
+        top: 6px;
+        right: 5px;
+        background-color: #bcb0fc;
+    }
+}
